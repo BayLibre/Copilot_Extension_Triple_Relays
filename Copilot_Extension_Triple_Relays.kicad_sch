@@ -732,6 +732,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:G5V-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2501,16 +2584,6 @@
 		)
 		(uuid "699eee15-3d64-4719-b1c4-10408707f740")
 	)
-	(polyline
-		(pts
-			(xy 60.96 105.41) (xy 64.77 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d58bb36-a867-4b0c-b0df-32689ea542bd")
-	)
 	(wire
 		(pts
 			(xy 116.84 44.45) (xy 116.84 52.07)
@@ -2630,16 +2703,6 @@
 			(type default)
 		)
 		(uuid "87f9fa14-e601-45f8-ada3-420c4eedd585")
-	)
-	(polyline
-		(pts
-			(xy 60.96 99.06) (xy 60.96 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a5623c2-7c19-46a6-8808-004536d2016e")
 	)
 	(wire
 		(pts
@@ -3563,6 +3626,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BSS138P,215"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdd2fd32-b44f-4be3-939d-7e797b01934b")
 		)
@@ -3896,6 +3968,15 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BSS138P,215"
 			(at 190.5 99.06 0)
 			(effects
 				(font
@@ -4564,6 +4645,15 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "10K 0603 5%"
+			(at 49.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0478f64-e2c4-41a1-a3fd-cb49d5bcae84")
 		)
@@ -4830,6 +4920,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 223.52 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "9cfb72cf-d67f-44b6-8ac5-9860d88c14ce")
+		(property "Reference" "H1"
+			(at 226.06 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 226.06 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 223.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Copilot_Extension_Triple_Relays"
+				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "usb2-extension:Conn_02x03_Odd_Even")
 		(at 45.72 134.62 180)
 		(unit 1)
@@ -4975,6 +5129,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BSS138P,215"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f277a9b2-fe49-4d9e-8ac6-4da285aec276")
 		)
@@ -4988,6 +5151,70 @@
 			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 223.52 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "af069f0a-7bd2-4677-ae85-eddb52a3d140")
+		(property "Reference" "H2"
+			(at 226.06 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 226.06 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Copilot_Extension_Triple_Relays"
+				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5165,6 +5392,70 @@
 			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b8510402-060f-4aa8-b6b7-549dfad6048e")
+		(property "Reference" "H3"
+			(at 246.38 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 246.38 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Copilot_Extension_Triple_Relays"
+				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5491,6 +5782,15 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "10K 0603 5%"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0e4b5ba-d6e9-442e-8b9c-e3219a86d055")
 		)
@@ -5725,6 +6025,15 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "10K 0603 5%"
+			(at 184.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bf3061b-be5f-4f98-88c5-a37de9560e5d")
 		)
@@ -5735,6 +6044,70 @@
 			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 243.84 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e0f7b026-6be0-4df0-93ab-b56cb35103c7")
+		(property "Reference" "H4"
+			(at 246.38 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 246.38 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Copilot_Extension_Triple_Relays"
+				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
