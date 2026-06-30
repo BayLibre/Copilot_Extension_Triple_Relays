@@ -2843,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 125.73) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617f5570-dd22-4576-88bf-ff79bfaadadc")
+	)
+	(wire
+		(pts
 			(xy 128.27 120.65) (xy 130.81 120.65)
 		)
 		(stroke
@@ -3330,16 +3340,6 @@
 			(type default)
 		)
 		(uuid "b848af63-8627-43ba-a1b8-83d03ff45662")
-	)
-	(wire
-		(pts
-			(xy 130.81 125.73) (xy 128.27 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e22cfa-5717-41d5-8e20-ba77a5c8ad7c")
 	)
 	(wire
 		(pts
@@ -6709,13 +6709,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 49.53 123.19 180)
+		(at 46.99 123.19 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6a2645b-efd9-430c-8c9d-6e6afdb22813")
 		(property "Reference" "J3"
 			(at 48.26 129.54 0)
@@ -6734,7 +6734,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
-			(at 49.53 123.19 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +6743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 123.19 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6760,7 @@
 			)
 		)
 		(property "MPN" "10129382-906003BLF"
-			(at 49.53 123.19 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,13 +6878,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 227.33 123.19 180)
+		(at 224.79 123.19 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abd3c5f5-e33c-4a77-9694-df83b928b3de")
 		(property "Reference" "J8"
 			(at 226.06 129.54 0)
@@ -6903,7 +6903,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
-			(at 227.33 123.19 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 123.19 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6929,7 @@
 			)
 		)
 		(property "MPN" "10129382-906003BLF"
-			(at 227.33 123.19 0)
+			(at 224.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,13 +7654,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 138.43 123.19 180)
+		(at 135.89 123.19 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1dd9128-6cc8-4adf-80f0-e910b71bf375")
 		(property "Reference" "J6"
 			(at 137.16 129.54 0)
@@ -7679,7 +7679,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
-			(at 138.43 123.19 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,7 +7688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 123.19 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +7705,7 @@
 			)
 		)
 		(property "MPN" "10129382-906003BLF"
-			(at 138.43 123.19 0)
+			(at 135.89 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
