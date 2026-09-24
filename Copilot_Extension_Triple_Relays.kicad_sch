@@ -4318,7 +4318,7 @@
 			(uuid "571dddb5-0e12-41e0-9796-55ec334c48b0")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "Q1")
 					(unit 1)
@@ -4413,7 +4413,7 @@
 			(uuid "7f27d124-3a85-4176-89f6-9759f91c29e1")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "D1")
 					(unit 1)
@@ -4858,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Value" "10129380-906001ALF"
+		(property "Value" "10129380-906002BLF"
 			(at 27.94 161.29 0)
 			(effects
 				(font
@@ -4892,7 +4892,7 @@
 				)
 			)
 		)
-		(property "MPN" "10129380-906001ALF"
+		(property "MPN" "10129380-906002BLF"
 			(at 27.94 172.72 0)
 			(effects
 				(font
@@ -6057,7 +6057,7 @@
 			(uuid "b951ebd8-c6fe-4b87-90c7-13430b8d3064")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "R1")
 					(unit 1)
@@ -7253,7 +7253,7 @@
 			(uuid "12ed763b-9e08-471d-a899-8f50ac6f56a6")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "J2")
 					(unit 1)
@@ -7493,7 +7493,7 @@
 			(uuid "18674916-4614-441f-9d1f-d988e969d0f5")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "K1")
 					(unit 1)
@@ -7559,7 +7559,7 @@
 			(uuid "12dc959e-1e95-4829-9091-337cb069a7ce")
 		)
 		(instances
-			(project ""
+			(project "Copilot_Extension_Triple_Relays"
 				(path "/a83c854f-9677-4c48-89ea-a7f18155ad1b"
 					(reference "#FLG02")
 					(unit 1)
