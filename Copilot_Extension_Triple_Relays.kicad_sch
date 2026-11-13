@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Copilot extension triple relays main page")
-		(date "2026-06-30")
-		(rev "1.0")
+		(date "2026-11-13")
+		(rev "1.1")
 		(company "(C) BayLibre SAS")
 	)
 	(lib_symbols

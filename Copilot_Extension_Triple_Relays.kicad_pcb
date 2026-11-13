@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Copilot extension triple relays main page")
-		(date "2026-06-30")
-		(rev "1.0")
+		(date "2026-11-13")
+		(rev "1.1")
 		(company "(C) BayLibre SAS")
 	)
 	(layers
@@ -12069,7 +12069,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Copilot Lite\n3x relay extension\nVersion 1.0"
+	(gr_text "Copilot Lite\n3x relay extension\nVersion 1.1"
 		(at 154 115 0)
 		(layer "F.SilkS")
 		(uuid "fcfcaf21-269f-40b8-9460-fb68734e08e6")
